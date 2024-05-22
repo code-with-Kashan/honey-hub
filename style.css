@@ -1,0 +1,171 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0px;
+    padding: 2px;
+}
+body{
+    background-image: url(image/body-bg.png);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(54, 17, 17); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(54, 17, 17); 
+  }
+.text{
+    color: white;
+    font-weight: 700;
+}
+i{
+    cursor: pointer;
+}
+span:hover{
+    color: orange;
+}
+.icon{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.hed-tex{
+    cursor: pointer;
+}
+.heading{
+    margin-top: 100px;
+}
+.button{
+    color: white;
+    background-color: orangered;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-weight: 800;
+}
+.button:hover{
+    background-color: black;
+    transition: 1.3s ease;
+}
+.section1{
+    background-color: #fff;
+}
+.section1 p {
+    color: rgb(217, 98, 38);
+    font-weight: 700;
+}
+.about{
+    margin-left: 100px;
+}
+.imgmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.quality img{
+    height: 180px;
+    width: 180px;
+}
+.section3 input{
+    width: 100%;
+    height: 50px;
+    background: none;
+    border: 3px solid white;
+    padding-left: 10px;
+    display: flex;
+    color: #fff;
+}
+.section3{
+    color: #fff;
+}
+.input{
+    height: 150px;
+    width: 100%;
+}
+.mainmain{
+    display: flex;
+}
+footer{
+    color: #fff;
+}
+.footer{
+    margin-top: 5px;
+    border: 1px solid white;
+    padding-left: 10px;
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+}
+hr{
+    background: #fff;
+}
+.footicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.footicon:hover{
+    i{
+    color: #fff;
+    transition: 1.5s ease;
+    cursor: pointer;
+}
+background-color: orange;
+transition: 1.5s ease;
+cursor: pointer;
+}
+.respon p:hover{
+    color: orange;
+    cursor: pointer;
+}
+.respon p{
+    font-weight: 700;
+}
+.copymain {
+    align-items: center;
+
+}
+
+.copymain p {
+    margin-top: 20px;
+}
+.boder{
+    width: 100%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+}
+.rightnavbar{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #fff;
+    margin-top: 50px;
+}
+.home{
+    color: orange;
+}
+.nab:hover{
+    color: orange;
+}
+.rightnavbar h4{
+    cursor: pointer;
+}
